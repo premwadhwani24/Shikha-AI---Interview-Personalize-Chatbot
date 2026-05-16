@@ -1,0 +1,12 @@
+flask
+requests
+werkzeug
+pandas
+scikit-learn
+pillow
+librosa
+soundfile
+pydub
+SpeechRecognition
+pyttsx3
+numpy
