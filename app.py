@@ -71,7 +71,7 @@ except Exception:
 # ---------------------------
 # Configuration (user provided defaults included)
 # ---------------------------
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyBJ6laUKqRn1hNy3PTmB3nbDGV1mEUiBqk")  # if empty generative calls disabled
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "")  # if empty generative calls disabled
 MODEL = os.getenv("GOOGLE_MODEL", "gemini-2.5-flash-preview-05-20")
 GEN_API_BASE = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
 
